@@ -1,0 +1,43 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+header {
+    background: url(../img/BG.jpg) center / cover no-repeat;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.371);
+    padding: 1rem ;
+}
+
+nav h1 {
+    padding-left: 3rem;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 3rem;
+    font-weight: 800;
+}
+
+
